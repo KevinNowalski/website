@@ -1,0 +1,41 @@
+/*-----------------------------------------------------------------------------------
+
+	Theme Name: Kevin Nowalski
+	Front-end developer: Kevin Nowalski
+	Date: 11/10/19
+
+-----------------------------------------------------------------------------------*/
+/* -----------------------------------------
+
+#fonts
+
+-----------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+/* -----------------------------------------
+
+#basic styles
+
+-----------------------------------------*/
+body{background:#fff;font-size:14px;line-height:1.6;font-family:'Open Sans',sans-serif;color:#3a4145;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;-webkit-text-size-adjust:100%;overflow-x:hidden;top:0!important}
+
+#top-bar{background:#fff;border-bottom:1px solid rgba(0,0,0,.125);padding:15px 0}
+header{background:#f5f8fa;border-bottom:1px solid rgba(0,0,0,.125)}
+header h1{font-weight:700;font-size:50px;margin:15px 0}
+header h2{margin:0}
+header .text-center{padding:60px 0}
+.container{width:1700px;max-width:100%}
+#social-links a{display:inline-block;color:#3a4145;margin-left:15px;font-size:30px;text-decoration:none}
+#social-links a:hover{opacity:.8}
+#profile-img{display:inline-block}
+#profile-img img{width:150px;border-radius:50%;border:2px solid rgba(0,0,0,.125);padding:5px}
+#profile-img:hover>img{border-color:gray;opacity:.8}
+#portfolio{padding:60px 0}
+#portfolio h2{margin:0 0 60px;font-weight:700;font-size:50px}
+#portfolio h3{margin:0 0 30px}
+.portfolio-link{display:block;text-decoration:none!important}
+.portfolio-banner{height:404px}
+#portfolio-links .owl-controls{text-align:center}
+#portfolio-links .owl-prev,#portfolio-links .owl-next{display:inline-block;font-size:40px;font-weight:700;color:#3a4145}
+#portfolio-links .owl-next{margin-left:30px}
+.portfolio-title{display:block;font-size:20px;color:#3a4145;font-weight:700;margin:15px 0}
+footer{padding:15px 0;border-top:1px solid rgba(0,0,0,.125)}
