@@ -31,7 +31,7 @@ header .text-center{padding:60px 0}
 #profile-img:hover>img{border-color:gray;opacity:.8}
 #portfolio{padding:60px 0}
 #portfolio h2{margin:0 0 60px;font-weight:700;font-size:50px}
-#portfolio h3{margin:0 0 30px}
+#portfolio h4{margin:0 0 60px}
 .portfolio-link{display:block;text-decoration:none!important}
 .portfolio-banner{height:404px}
 #portfolio-links .owl-controls{text-align:center}
