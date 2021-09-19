@@ -30,7 +30,8 @@ header .text-center{padding:60px 0}
 #profile-img img{width:150px;border-radius:50%;border:2px solid rgba(0,0,0,.125);padding:5px}
 #profile-img:hover>img{border-color:gray;opacity:.8}
 #portfolio{padding:60px 0}
-#portfolio h2{margin:0 0 60px;font-weight:700;font-size:50px}
+#portfolio h2,#portfolio h3{margin:0 0 30px;font-weight:700;font-size:30px}
+#portfolio h3 a{font-size:25px}
 #portfolio h4{margin:0 0 60px}
 .portfolio-link{display:block;text-decoration:none!important}
 .portfolio-banner{height:404px}
