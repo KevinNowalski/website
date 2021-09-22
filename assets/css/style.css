@@ -26,8 +26,8 @@ header .text-center{padding:60px 0}
 .container{width:1700px;max-width:100%}
 #social-links a{display:inline-block;color:#3a4145;margin-left:15px;font-size:30px;text-decoration:none}
 #social-links a:hover{opacity:.8}
-#profile-img{display:inline-block}
-#profile-img img{width:150px;border-radius:50%;border:2px solid rgba(0,0,0,.125);padding:5px}
+#profile-img{display:inline-block;height:150px;width:150px}
+#profile-img img{border-radius:50%;border:2px solid rgba(0,0,0,.125);padding:5px;object-fit:cover;height:100%;width:100%}
 #profile-img:hover>img{border-color:gray;opacity:.8}
 #portfolio{padding:60px 0}
 #portfolio h2,#portfolio h3{margin:0 0 30px;font-weight:700;font-size:30px}
