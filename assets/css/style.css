@@ -26,6 +26,7 @@ header .text-center{padding:60px 0}
 .container{width:1700px;max-width:100%}
 #social-links a{display:inline-block;color:#3a4145;margin-left:15px;font-size:30px;text-decoration:none}
 #social-links a:hover{opacity:.8}
+#revize-projects{margin-top:60px}
 #profile-img{display:inline-block;height:150px;width:150px}
 #profile-img img{border-radius:50%;border:2px solid rgba(0,0,0,.125);padding:5px;object-fit:cover;height:100%;width:100%}
 #profile-img:hover>img{border-color:gray;opacity:.8}
@@ -33,7 +34,7 @@ header .text-center{padding:60px 0}
 #portfolio h2,#portfolio h3{margin:0 0 30px;font-weight:700;font-size:30px}
 #portfolio h2 span{font-weight:400}
 #portfolio h3 a{font-size:25px}
-#portfolio h4{margin:0 0 60px}
+#portfolio h4{margin:0 0 60px;line-height:25px;font-size:16px}
 .portfolio-link{display:block;text-decoration:none!important}
 .portfolio-banner{height:404px}
 #portfolio-links .owl-controls{text-align:center}
