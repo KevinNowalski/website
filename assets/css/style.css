@@ -33,7 +33,8 @@ header .text-center{padding:60px 0}
 #portfolio{padding:60px 0}
 #portfolio h2,#portfolio h3{margin:0 0 30px;font-weight:700;font-size:30px}
 #portfolio h2 span{font-weight:400}
-#portfolio h3 a{font-size:25px}
+#portfolio h3{font-size:25px;position:relative}
+#portfolio h3 span{display:block;font-size:16px}
 #portfolio h4{margin:0 0 60px;line-height:25px;font-size:16px}
 .portfolio-link{display:block;text-decoration:none!important}
 .portfolio-banner{height:404px}
