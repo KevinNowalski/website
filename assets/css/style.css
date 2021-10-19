@@ -22,14 +22,16 @@ body{background:#fff;font-size:14px;line-height:1.6;font-family:'Open Sans',sans
 header{background:#f5f8fa;border-bottom:1px solid rgba(0,0,0,.125)}
 header h1{font-weight:700;font-size:50px;margin:15px 0}
 header h2{margin:0}
-header .text-center{padding:60px 0}
-.container{width:1700px;max-width:100%}
+header .text-center{padding:60px 15px}
+.container{width:1320px;max-width:100%}
 #social-links a{display:inline-block;color:#3a4145;margin-left:15px;font-size:30px;text-decoration:none}
 #social-links a:hover{opacity:.8}
-#revize-projects{margin-top:60px}
 #profile-img{display:inline-block;height:150px;width:150px}
 #profile-img img{border-radius:50%;border:2px solid rgba(0,0,0,.125);padding:5px;object-fit:cover;height:100%;width:100%}
 #profile-img:hover>img{border-color:gray;opacity:.8}
+#projects-links{display:flex;flex-wrap:wrap;justify-content:space-between;margin:0 -15px}
+#projects-links h3{padding:0 15px}
+#revize-projects{margin-top:60px}
 #portfolio{padding:60px 0}
 #portfolio h2,#portfolio h3{margin:0 0 30px;font-weight:700;font-size:30px}
 #portfolio h2 span{font-weight:400}
@@ -37,9 +39,23 @@ header .text-center{padding:60px 0}
 #portfolio h3 span{display:block;font-size:16px}
 #portfolio h4{margin:0 0 60px;line-height:25px;font-size:16px}
 .portfolio-link{display:block;text-decoration:none!important}
-.portfolio-banner{height:404px}
+.portfolio-banner{height:204px}
 #portfolio-links .owl-controls{text-align:center}
 #portfolio-links .owl-prev,#portfolio-links .owl-next{display:inline-block;font-size:40px;font-weight:700;color:#3a4145}
 #portfolio-links .owl-next{margin-left:30px}
 .portfolio-title{display:block;font-size:20px;color:#3a4145;font-weight:700;margin:15px 0}
 footer{padding:15px 0;border-top:1px solid rgba(0,0,0,.125)}
+
+@media only screen and (max-width:1199px) {
+	#portfolio h3{font-size:20px}
+}
+
+@media only screen and (max-width:991px) {
+	header h1{font-size:30px;margin:15px 0 5px}
+	header h2{font-size:20px}
+}
+
+@media only screen and (max-width:479px) {
+	#portfolio h3{font-size:17px}
+	#projects-links{display:block}
+}
